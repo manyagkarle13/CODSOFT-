@@ -1,6 +1,6 @@
-# JobSphere Frontend
+# JobSphere Frontend - CodSoft Job Board Task
 
-This is the React + Vite frontend for JobSphere, a full-stack job board web application.
+This is the React + Vite frontend for JobSphere, my branded implementation of the **CodSoft Web Development Internship - Job Board** project task.
 
 Live frontend: https://jobsphereweb.netlify.app/
 

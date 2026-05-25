@@ -1,6 +1,8 @@
-# JobSphere
+# JobSphere - CodSoft Web Development Internship Job Board
 
-JobSphere is a full-stack job board web application where employers can post job openings and manage applicants, while job seekers can browse jobs, apply with a resume, and track application updates from a candidate dashboard.
+JobSphere is my implementation of the **CodSoft Web Development Internship - Job Board** project task. The assigned project name/category is **Job Board**, and I developed it as a branded full-stack application named **JobSphere**.
+
+JobSphere allows employers to post job openings and manage applicants, while job seekers can browse jobs, apply with a resume, and track application updates from a candidate dashboard.
 
 ## Live Deployment
 
@@ -10,12 +12,16 @@ JobSphere is a full-stack job board web application where employers can post job
 
 ## Project Overview
 
+This project was created for the **CodSoft Web Development Internship** as the **Job Board** task. I named my version **JobSphere** to give the project a complete product identity and professional user experience.
+
 JobSphere was built as a MERN-style job board using React, Node.js, Express, and MongoDB. The application supports separate candidate and employer workflows, secure email/password authentication, job posting, job search, resume-based applications, employer review actions, and email notifications for important updates.
 
 The hero image featuring the girl on the website is AI-generated and is used as a visual design asset for the web application.
 
 ## Features
 
+- Built for the CodSoft Web Development Internship Job Board task
+- Branded project implementation named JobSphere
 - Home page with a professional landing experience
 - User authentication with secure email/password signup and login
 - Candidate and employer account types
@@ -239,7 +245,6 @@ On smaller screens, dashboard navigation adapts into a horizontal menu and wide 
 
 ## Notes
 
-- Google login was removed to keep authentication stable and focused on email/password login.
 - The girl shown in the web app hero section is AI-generated and not a real person.
 - Sensitive values such as MongoDB URI, JWT secret, and email password should never be committed to GitHub.
 
