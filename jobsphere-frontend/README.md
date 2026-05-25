@@ -1,16 +1,46 @@
-# React + Vite
+# JobSphere Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the React + Vite frontend for JobSphere, a full-stack job board web application.
 
-Currently, two official plugins are available:
+Live frontend: https://jobsphereweb.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Backend API: https://jobsphere-backend-exta.onrender.com
 
-## React Compiler
+The girl shown in the web app hero section is AI-generated and used as a visual design asset.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Landing page
+- Candidate and employer authentication screens
+- Candidate dashboard
+- Employer dashboard
+- Job search and listings
+- Application tracking
+- Responsive desktop and mobile layouts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local Setup
+
+```bash
+npm install
+npm run dev
+```
+
+Local URL:
+
+```text
+http://localhost:5173
+```
+
+## Environment
+
+Create a `.env` file:
+
+```env
+VITE_API_URL=http://localhost:5000
+```
+
+For Netlify deployment:
+
+```env
+VITE_API_URL=https://jobsphere-backend-exta.onrender.com
+```
