@@ -35,6 +35,7 @@
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .user-role {
@@ -952,9 +953,12 @@
   border-radius: 12px;
   padding: 18px;
   box-shadow: 0 2px 12px rgba(47, 76, 139, 0.04);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .applications-table table {
   width: 100%;
+  min-width: 720px;
   border-collapse: collapse;
   font-size: 14px;
 }
@@ -1095,14 +1099,16 @@
     width: 100%;
     border-right: none;
     border-bottom: 1px solid #e8eff8;
-    max-height: 80px;
-    overflow: visible;
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 
   .sidebar-menu {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 4px;
+    min-width: max-content;
   }
 
   .menu-item {
@@ -1135,6 +1141,8 @@
   }
 
   .dashboard-nav-section {
+    width: 100%;
+    justify-content: flex-start;
     gap: 12px;
     font-size: 12px;
   }
@@ -1178,6 +1186,10 @@
   .profile-sections.grid {
     grid-template-columns: 1fr;
   }
+
+  .applications-table {
+    padding: 12px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1185,8 +1197,18 @@
     padding: 12px;
   }
 
-  .sidebar {
-    max-height: 60px;
+  .dashboard-navbar {
+    align-items: flex-start;
+  }
+
+  .dashboard-nav-section .logout-btn,
+  .dashboard-nav-section .btn-secondary {
+    width: 100%;
+  }
+
+  .user-name {
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
 
   .menu-item {
