@@ -49,7 +49,7 @@ export default function CandidateDashboard({ user, onLogout, onProfileSave, onBa
   const [notifications, setNotifications] = useState([]);
   const [showNotificationsPanel, setShowNotificationsPanel] = useState(false);
 
-  const API_BASE_URL = (import.meta.env.VITE_API_URL || 'http://localhost:5000').trim() || 'http://localhost:5000';
+  const API_BASE_URL = (import.meta.env.VITE_API_URL || 'https://jobsphere-backend-exta.onrender.com').trim() || 'https://jobsphere-backend-exta.onrender.com';
   const userId = user._id || user.id;
 
   const parseResponse = async (response) => {

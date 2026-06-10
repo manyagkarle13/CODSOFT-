@@ -14,7 +14,7 @@ export default function CandidateDashboard({ user, onLogout }) {
   const [resume, setResume] = useState('');
   const [coverLetter, setCoverLetter] = useState('');
 
-  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://jobsphere-backend-exta.onrender.com';
 
   useEffect(() => {
     if (activeTab === 'jobs') {

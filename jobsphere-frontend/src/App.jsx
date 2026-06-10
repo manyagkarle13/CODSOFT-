@@ -35,7 +35,7 @@ const initialAuthForm = {
   role: 'candidate',
 };
 
-const API_BASE_URL = (import.meta.env.VITE_API_URL || 'http://localhost:5000').trim() || 'http://localhost:5000';
+const API_BASE_URL = (import.meta.env.VITE_API_URL || 'https://jobsphere-backend-exta.onrender.com').trim() || 'https://jobsphere-backend-exta.onrender.com';
 
 function App() {
   const [authMode, setAuthMode] = useState(null);

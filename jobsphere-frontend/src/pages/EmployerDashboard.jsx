@@ -44,7 +44,7 @@ export default function EmployerDashboard({ user, onLogout, onBackToHome }) {
   });
   const [showJobForm, setShowJobForm] = useState(false);
 
-  const API_BASE_URL = (import.meta.env.VITE_API_URL || 'http://localhost:5000').trim() || 'http://localhost:5000';
+  const API_BASE_URL = (import.meta.env.VITE_API_URL || 'https://jobsphere-backend-exta.onrender.com').trim() || 'https://jobsphere-backend-exta.onrender.com';
 
   const [summary, setSummary] = useState({ jobsCount: 0, applicationsCount: 0, recentApplicants: [] });
 
