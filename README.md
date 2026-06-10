@@ -6,7 +6,7 @@ JobSphere allows employers to post job openings and manage applicants, while job
 
 ## Live Deployment
 
-- Frontend: https://jobsphereweb.netlify.app/
+- Frontend: https://jobspherewebapplication.netlify.app/
 - Backend API: https://jobsphere-backend-exta.onrender.com
 - Database: MongoDB Atlas
 
