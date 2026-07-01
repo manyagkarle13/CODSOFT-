@@ -209,7 +209,7 @@ Render environment variables should include the MongoDB Atlas URI, JWT secret, a
 The frontend is deployed on Netlify:
 
 ```text
-https://jobsphereweb.netlify.app/
+jobspherewebapplication.netlify.app
 ```
 
 The Netlify environment variable `VITE_API_URL` should point to the deployed Render backend.
